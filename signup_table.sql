@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- 테이블 구조 `signup_table`
 --
 
-CREATE TABLE `signup_table` (
+CREATE TABLE `signup_tableh` (
   `idx` int NOT NULL COMMENT '자동 증가번호',
   `id` varchar(16) COLLATE utf8mb4_general_ci NOT NULL COMMENT '아이디',
   `pw` varchar(16) COLLATE utf8mb4_general_ci NOT NULL COMMENT '비밀번호',
